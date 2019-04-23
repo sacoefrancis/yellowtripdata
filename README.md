@@ -1,19 +1,24 @@
-# Assignment:
+#Assignment:
 Loading Data from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page 2018/January  data
 
-# Below activities done in this project:
+#Below activities done in this project:
 
 Data ingestion 
 Data cleanising
 Data Tranformation and Analysis
 
-# The project is in yellowtripdata folder it will have  below folder
+#System Requirements
+OS:       Ubuntu
+platform: Docker 
+CSV file download :  need to place CSV file in inputs folder from    https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page 2018/January  data
+
+#The project is in yellowtripdata folder it will have  below folder
 
 1.inputs  (required input files should be loaded from above link)
 2.outputs (generated output will be placed in this folder)
 3.pyscripts (will have below files will be executed automatically by 'runnable.sh')
 
-* Pyscripts folder files: *
+*Pyscripts folder files:*
 
 1.00_depedent_script_for_python.sh  - will install python and all  dependent python objects
 
