@@ -7,6 +7,11 @@ Data ingestion
 Data cleanising
 Data Tranformation and Analysis
 
+#System Requirements
+OS:       Ubuntu
+platform: Docker 
+CSV file download :  need to place CSV file in inputs folder from    https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page 2018/January  data
+
 #The project is in yellowtripdata folder it will have  below folder
 
 1.inputs  (required input files should be loaded from above link)
