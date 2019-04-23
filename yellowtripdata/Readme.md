@@ -8,7 +8,8 @@ Data cleanising
 Data Tranformation and Analysis
 
 #System Requirements
-OS:       Ubuntu
+OS:            Ubuntu
+python version: 3
 platform: Docker 
 CSV file download :  need to place CSV file in inputs folder from    https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page 2018/January  data
 
@@ -34,4 +35,6 @@ CSV file download :  need to place CSV file in inputs folder from    https://www
 
 [Important note:]
 
-runnable.sh is the only file which needs to be executed (it will invoke all the scripts mentioned above)
+./runnable.sh is the only file which needs to be executed (it will invoke all the scripts mentioned above)
+
+yellowtripdata  should have read and write access
